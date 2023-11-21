@@ -1,0 +1,81 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("./assets/bg.png");
+    background-repeat: no-repeat;
+
+}
+
+#Score-card{
+    color: #fff;
+    text-align: center;
+    margin-top: 70px;
+    font-size: 70px;
+
+}
+
+#container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.vsImg{
+    height: 50px;
+}
+
+.box1{
+    position: relative;
+    
+}
+
+#item{
+    position: absolute;
+    top: 250px;
+    margin-left: 60px;
+}
+
+.item1,.item2,.item3{
+    height: 90px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+.box1,.box2{
+    border: 2px solid #ffc434;
+    height: 350px;
+    width: 500px;
+}
+
+#boxText{
+    color: #fff;
+    text-align: center;
+}
+
+.lastText{
+    text-align: center;
+    color: #fff;
+}
+
+.button{
+    cursor: pointer;
+    color: #fff;
+    background-color: red;
+    height: 30px;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 46%;
+    text-align: center;
+    padding: 5px;
+
+}
+
+#play-again{
+    visibility: hidden;
+}

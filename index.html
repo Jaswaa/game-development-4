@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="head">
+        <h1>ROCK PAPER SCISSOR</h1>
+    </div>
+    <div id="play">
+        <div id="game-image">
+            <img src="./assets/game-image.png" alt="">
+        </div>
+        <div id="play-button">
+            <img class="play-button" src="./assets/play-button.png" alt="">
+            <b>Play the Game</bb>
+        </div>
+ </div>
+   
+</body>
+</html>
+<script>
+    var play = document.getElementById("play-button")
+    play.addEventListener("click",() => {
+        window.location.href = "./game-over.html"
+    })
+</script>
